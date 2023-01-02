@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* the main page */
+
+.home-section {
+  background-image: url('../Images/consert2.png');
+  background-position: top right;
+  background-size: cover;
+}
+
+.main-header {
+  background-color: #d3d3d3;
+  padding: 5%;
+  opacity: 0.7;
+}
+
+.main-header.active {
+  opacity: 1;
+}
+
+.burger {
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.bars {
+  display: block;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 5px;
+  background-color: #272a31;
+  
+}
+
+.burger.active .bars:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .bars:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+}
+
+.burger.active .bars:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+}
+
+.logo {
+  display: none;
+}
+
+.nav {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-image: url('../Images/consert1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  opacity: unset;
+  left: -100%;
+  transition: 0.5s ease-in-out;
+}
+
+.nav.active {
+  left: 0;
+}
+
+.nav-ul {
+  align-items: center;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #817d7d;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-ul li {
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+}
+
+.nav-ul a .home-li {
+  color: #ec5242;
+}
+
+.nav-ul a .pallstar {
+  color: #ec5242;
+  border: 2px solid #ec5242;
+  padding: 7px 10px;
+}
+
+.main {
+  background-color: #d3d3d3;
+  opacity: 0.7;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.main-tittle {
+  color: #ec5242;
+  font-size: 50px;
+  padding: 50px 0 15px 0;
+}
+
+.main-p {
+  border: 2px solid #a19f9f;
+  padding: 3%;
+  color: #272a31;
+  background-color: #fff;
+}
+
+.availability {
+  padding: 15px 0;
+  color: #272a31;
+  font-size: 30px;
+}
+
+.info-p {
+  padding: 20px 0 80px 0;
+  color: #272a31;
+  font-size: 18px;
+}
+
+/* old logo section */
+
+.old-logo {
+  background-color: #fff;
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+.old-logo-tittle {
+  color: #272a31;
+}
+
+.old-logo hr {
+  width: 40px;
+  height: 1px;
+  margin: 15px auto;
+  background-color: #ec5242;
+  border: 0px;
+}
+
+.old-logo-p {
+  font-size: 18px;
+  color: #272a31;
+}
+
+.logo-image img {
+  width: 100%;
+  border: 1px solid #272a31;
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+/* past pollstar concert */
+
+.past-consert {
+  background-color: #fcf8f8;
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+.past-concert-tittle {
+    color: #272a31;
+  }
+
+.past-consert hr {
+  width: 40px;
+  height: 1px;
+  margin: 15px auto;
+  background-color: #ec5242;
+  border: 0px;
+}
+
+.past-concert-paragraph {
+  font-size: 18px;
+  color: #272a31;
+  margin-bottom: 20px;
+}
+
+.concert-images-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.first-image {
+  background-image: url('../Images/last1.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top right;
+  
+}
+
+.first-image-container {
+  background-color: #ec5242;
+  opacity: 0.7;
+  padding: 20%;
+}
+
+.first-concer {
+  font-size: 40px;
+  color: #fff;
+}
+
+.second-image {
+  background-image: url('../Images/last2.png');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* footer  */
+
+.footer-section {
+  padding: 5%;
+  background-color: #000;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+.footer-image img {
+  width: 100%;
+}
+
+.footer-writings {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+    /* main page */
+  .burger {
+    display: none;
+  }
+
+  .main-header {
+    background-color: #fff;
+    padding: 20px 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: 1;
+  }
+
+  .logo {
+    display: unset;
+  }
+
+  .logo img {
+    width: 130px;
+    z-index: 100;
+  }
+
+  .nav {
+    display: unset;
+    left: unset;
+    top: unset;
+    position: unset;
+    width: unset;
+    height: unset;
+    background-image: unset;
+  }
+
+  .nav-ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: unset;
+    background-color: unset;
+    color: unset;
+    gap: 30px;
+    align-items: center;
+    margin-top: unset;
+    opacity: unset;
+  }
+
+  .nav-ul a {
+    text-decoration: none;
+    color: #272a31;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nav-ul a::before {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #272a31;
+    position: absolute;
+    left: -100%;
+    bottom: 0;
+    transition: 350ms;
+  }
+
+  .nav-ul a:hover::before {
+    left: 0;
+  }
+
+
+  .nav-ul li {
+    list-style: none;
+    font-size: unset;
+  }
+
+  .nav-ul a .home-li {
+    color: #ec5242;
+  }
+
+  .nav-ul a .pallstar {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    margin-left: 40px;
+    font-size: 18px;
+    padding: 7px 10px;
+  }
+
+  .main {
+    padding: 5% 17% 0 17%;
+  }
+
+  .main-tittle {
+    font-size: 70px;
+    padding: 100px 0 20px 0;
+  }
+
+  .main-p {
+    max-width: 730px;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  .info-p {
+    font-size: 20px;
+    padding: 40px 0 130px 0;
+  }
+
+  /* old logo section */
+
+  .old-logo {
+    padding: 5% 17%;
+  }
+
+  /* past pollstar concert */
+
+  .past-consert {
+    padding: 5% 17%;
+  }
+
+  .concert-images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* footer */
+
+  .footer-section {
+    padding: 3% 17%;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-image img {
+    width: 130px;
+  }
+}
