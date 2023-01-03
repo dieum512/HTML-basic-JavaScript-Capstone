@@ -2,9 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -15,6 +12,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -47,6 +45,25 @@
     <li><a href="https://js.com/">JavaScript</a></li>
   </ul>
 </details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Use semantic HTML tags.**
+- **Apply best practices in HTML code.**
+- **Use CSS selectors correctly.**
+- **Use CSS box model.**
+- **Use Flexbox to place elements in the page.**
+- **Demonstrate ability to create UIs adaptable to different screen sizes using media queries.**
+- **Use GitHub Pages to deploy web pages.**
+- **Apply JavaScript best practices and language style guides in code.**
+- **Use JavaScript to manipulate DOM elements.**
+- **Use JavaScript events.**
+- **Use objects to store and access data.**
+- **Communicate technical concepts to other technical people.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
