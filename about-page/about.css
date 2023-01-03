@@ -42,7 +42,6 @@ body {
   width: 30px;
   height: 5px;
   background-color: #272a31;
-  
 }
 
 .burger.active .bars:nth-child(2) {
@@ -66,7 +65,6 @@ body {
 .nav {
   display: block;
   position: fixed;
-  left: 0;
   top: 0;
   background-image: url('../Images/consert1.png');
   background-size: cover;
@@ -168,7 +166,7 @@ body {
   height: 1px;
   margin: 15px auto;
   background-color: #ec5242;
-  border: 0px;
+  border: 0;
 }
 
 .old-logo-p {
@@ -193,15 +191,15 @@ body {
 }
 
 .past-concert-tittle {
-    color: #272a31;
-  }
+  color: #272a31;
+}
 
 .past-consert hr {
   width: 40px;
   height: 1px;
   margin: 15px auto;
   background-color: #ec5242;
-  border: 0px;
+  border: 0;
 }
 
 .past-concert-paragraph {
@@ -221,7 +219,6 @@ body {
   background-size: cover;
   background-repeat: repeat;
   background-position: top right;
-  
 }
 
 .first-image-container {
@@ -263,7 +260,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    /* main page */
+  /* main page */
   .burger {
     display: none;
   }
@@ -299,7 +296,7 @@ body {
     background-image: unset;
   }
 
-  .nav-ul{
+  .nav-ul {
     display: flex;
     flex-direction: row;
     padding-top: unset;
@@ -333,7 +330,6 @@ body {
   .nav-ul a:hover::before {
     left: 0;
   }
-
 
   .nav-ul li {
     list-style: none;
