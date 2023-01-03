@@ -110,10 +110,12 @@ body {
   color: #ec5242;
 }
 
-.nav-ul a .pallstar {
+.nav-ul .pallstar {
   color: #ec5242;
   border: 2px solid #ec5242;
   padding: 7px 10px;
+  margin-left: 20px;
+  cursor: default;
 }
 
 .main {
