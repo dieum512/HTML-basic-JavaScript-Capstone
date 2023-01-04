@@ -1,0 +1,60 @@
+const data = {
+  card: [
+    {
+      key: 0,
+      cardImage: 'Images/rapper1.jpg',
+      cardAlt: 'A picture of Big Sean',
+      cardName: 'Big Sean',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+    {
+      key: 1,
+      cardImage: 'Images/rapper2.jpg',
+      cardAlt: 'A picture of J. cole',
+      cardName: 'J. Cole',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+    {
+      key: 2,
+      cardImage: 'Images/rapper3.jpg',
+      cardAlt: 'A picture of 21 Savage',
+      cardName: '21 Savage',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+    {
+      key: 3,
+      cardImage: 'Images/rapper4.jpg',
+      cardAlt: 'A picture of Lil Baby',
+      cardName: 'Lil Baby',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+    {
+      key: 4,
+      cardImage: 'Images/rapper5.jpg',
+      cardAlt: 'A picture of Polo G',
+      cardName: 'Polo G',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+    {
+      key: 5,
+      cardImage: 'Images/rapper6.jpg',
+      cardAlt: 'A picture of Lil Durk',
+      cardName: 'Lil Durk',
+      cardInfo: 'American rapper',
+      cardDetail: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+      quasi.`,
+    },
+  ],
+};
+
+export default data;
