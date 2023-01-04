@@ -360,15 +360,6 @@ body {
     list-style: none;
   }
 
-  .top ul a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .top ul a:hover {
-    opacity: 0.5;
-  }
-
   .burger {
     display: none;
   }
@@ -434,6 +425,15 @@ body {
 
   .nav-ul a:hover::before {
     left: 0;
+  }
+
+  .top ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .top ul a:hover {
+    opacity: 0.5;
   }
 
   .nav-ul li {
