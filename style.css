@@ -20,6 +20,10 @@ body {
   background-size: cover;
 }
 
+.top {
+  display: none;
+}
+
 .main-header {
   background-color: #d3d3d3;
   padding: 5%;
@@ -336,6 +340,35 @@ body {
 
 @media (min-width: 768px) {
   /* main page */
+  .header-container {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .top {
+    display: block;
+    background-color: #272a31;
+    padding: 2px 17%;
+    margin: 0 0 0 auto;
+  }
+
+  .top ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .top ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .top ul a:hover {
+    opacity: 0.5;
+  }
+
   .burger {
     display: none;
   }
@@ -346,9 +379,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
     opacity: 1;
   }
 
