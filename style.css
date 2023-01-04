@@ -156,15 +156,13 @@ body {
 
 .categories-section {
   background-image: url('Images/background2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top right;
+  background-repeat: repeat;
 }
 
 .categories-div {
   background-color: #272a31;
-  opacity: 0.9;
-  padding: 2%;
+  opacity: 0.97;
+  padding: 5%;
 }
 
 .categories-title {
@@ -191,22 +189,33 @@ body {
   background-color: #40454d;
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 4%;
   align-items: center;
-  padding: 3px;
+  padding: 3%;
 }
 
 .svg-logo {
-  width: 100px;
+  width: 50px;
   fill: #fff;
 }
 
 .program-tittle {
   color: #ec5242;
+  font-size: 15px;
 }
 
 .program-p {
   color: #fff;
+  font-size: 13px;
+}
+
+.see-more {
+  text-align: center;
+  color: #fff;
+}
+
+.see-more:hover {
+  color: #ddd4d4;
 }
 
 /* rappers page */
@@ -446,7 +455,7 @@ body {
   /* categories page  */
 
   .categories-div {
-    padding: 4% 17%;
+    padding: 4% 10%;
   }
 
   .program-container {
@@ -507,5 +516,22 @@ body {
 
   .footer-image img {
     width: 130px;
+  }
+}
+
+@media (min-width: 978px) {
+  /* categories page  */
+
+  .categories-div {
+    padding: 4% 17%;
+  }
+
+  .program-div {
+    gap: 10px;
+    padding: 10%;
+  }
+
+  .program-p {
+    font-size: unset;
   }
 }
