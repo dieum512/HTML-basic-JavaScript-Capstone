@@ -18,6 +18,7 @@ body {
   background-image: url('Images/consert2.png');
   background-position: top right;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .top {
